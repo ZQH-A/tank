@@ -1,0 +1,8 @@
+{
+    "title": "TankVersion1_2",
+    "identifier": "com.yourcompany.wizardEVP.TankVersion12",
+    "orientation": "landscape",
+    "versioncode": 1,
+    "versionname": "1.0",
+    "stage": "test"
+}
