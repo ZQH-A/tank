@@ -24,7 +24,7 @@ EntityBase {
 
   property int life: (variationType === "strong") ? 3 : 1
   property int rotate: 3
-  property int enemyMoveV: (variationType === "speed") ? 1000 : 600//敌人move速度
+  property int enemyMoveV: (variationType === "speed") ? 6000 : 3000//敌人move速度
   property int enemyBulletV: 100//敌人Bullet速度
 
   property string imageName:"enemyNormal"
@@ -204,7 +204,7 @@ Timer{
                                                                 });
 
             var num2;//敌人Bullet间隔
-            if(variationType === "speed") num2=getRandomNum(400,1000);
+            if(variationType === "speed") num2=getRandomNum(2000,5000);
             else num2=getRandomNum(500,1500);
 
             interval=num2;//随机时间发射子弹
